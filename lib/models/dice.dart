@@ -1,14 +1,13 @@
 import 'package:collection/collection.dart';
 import 'dart:math';
 
-
 class Dice {
   final List<int?> _values;
   final List<bool> _held;
 
-  Dice(int numDice) 
-  : _values = List<int?>.filled(numDice, null),
-    _held = List<bool>.filled(numDice, false);
+  Dice(int numDice)
+      : _values = List<int?>.filled(numDice, 1),
+        _held = List<bool>.filled(numDice, false);
 
   List<int> get values => List<int>.unmodifiable(_values.whereNotNull());
 
