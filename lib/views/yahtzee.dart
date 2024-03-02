@@ -77,14 +77,14 @@ class _YahtzeeGameScreenState extends State<YahtzeeGameScreen> {
                 'Game Over',
                 style: TextStyle(
                   fontSize: 18,
-                  color: Color.fromARGB(255, 133, 96, 64),
+                  color: Color.fromARGB(255, 19, 13, 7),
                 ),
               ),
               content: Text(
                 'All categories are selected! Total score is $totalScore',
                 style: const TextStyle(
                   fontSize: 18,
-                  color: Color.fromARGB(255, 167, 138, 113),
+                  color: Color.fromARGB(255, 13, 12, 11),
                 ),
               ),
               backgroundColor: const Color.fromARGB(255, 0, 159, 146),
@@ -94,7 +94,7 @@ class _YahtzeeGameScreenState extends State<YahtzeeGameScreen> {
                     'New Game',
                     style: TextStyle(
                       fontSize: 18,
-                      color: Color.fromARGB(255, 80, 103, 157),
+                      color: Color.fromARGB(255, 12, 17, 27),
                     ),
                   ),
                   onPressed: () {
